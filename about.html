@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Unlock IB &amp; GCSE</title>
+    <link rel="stylesheet" href="style.css?v=3">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            menuToggle.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="brand">Unlock IB &amp; GCSE</div>
+            <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <a href="ib.html">Subjects</a>
+                    <div class="dropdown-content">
+                        <a href="ib.html#science">Science &amp; Maths</a>
+                        <a href="ib.html#economics">Economics</a>
+                        <a href="ib.html#languages">Languages &amp; Humanities</a>
+                        <a href="gcse.html">GCSE &amp; Lower Levels</a>
+                    </div>
+                </div>
+                <a href="tips.html">Study Tips</a>
+                <a href="booking.html">Booking</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>About Me</h1>
+            <p>Get to know your tutor</p>
+        </div>
+    </div>
+    <div class="container">
+        <section>
+            <h2 class="section-title">Hi, I'm Alec</h2>
+            <div class="standout">
+                <p>I’m a recent IB graduate (41/45) from UWC Atlantic College, Class of 2025. After two intense years of studying, ups and downs, I'm ready to use my experience to help you thrive through the International Baccalaureate and beyond.</p>
+                <p>While I’m particularly confident in STEM subjects, I also have a passion for anthropology and Spanish. During my time at UWC Atlantic I co‑headed the innovation division on the Student Academic Board, which gave me first‑hand experience in managing time, balancing coursework with regular study and extra‑curricular activities.</p>
+                <p>Outside academics I enjoy engineering, sports and exploring the outdoors — hobbies that shape my coaching style: precise, patient and energetic. These interests keep my lessons engaging and relatable.</p>
+                <p>My mission is to guide you through the IB or GCSE programme with empathy and enthusiasm, helping you achieve your academic goals while enjoying the journey.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Unlock IB &amp; GCSE Tutoring. All rights reserved.
+    </footer>
+</body>
+</html>

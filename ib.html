@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects &amp; Approach | Unlock IB &amp; GCSE</title>
+    <link rel="stylesheet" href="style.css?v=3">
+    <script>
+        // Toggle navigation on mobile
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            menuToggle.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="brand">Unlock IB &amp; GCSE</div>
+            <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <a href="ib.html">Subjects</a>
+                    <div class="dropdown-content">
+                        <a href="ib.html#science">Science &amp; Maths</a>
+                        <a href="ib.html#economics">Economics</a>
+                        <a href="ib.html#languages">Languages &amp; Humanities</a>
+                        <a href="gcse.html">GCSE &amp; Lower Levels</a>
+                    </div>
+                </div>
+                <a href="tips.html">Study Tips</a>
+                <a href="booking.html">Booking</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Subjects &amp; Approach</h1>
+            <p>Find out what I teach and how I teach</p>
+        </div>
+    </div>
+    <div class="container">
+        <section id="subjects">
+            <h2 class="section-title">Subjects I Tutor</h2>
+            <div class="card-grid">
+                <div class="card" id="science">
+                    <img src="images/icon-physics.png" alt="Science &amp; Maths Icon">
+                    <h3>Science &amp; Maths</h3>
+                    <p>Deepen your understanding and problem‑solving skills in these subjects:</p>
+                    <ul>
+                        <li>Physics HL</li>
+                        <li>Mathematics AA SL</li>
+                    </ul>
+                </div>
+                <div class="card" id="economics">
+                    <img src="images/icon-economics.png" alt="Economics Icon">
+                    <h3>Economics</h3>
+                    <p>Explore economic theory and real‑world contexts:</p>
+                    <ul>
+                        <li>Economics HL</li>
+                    </ul>
+                </div>
+                <div class="card" id="languages">
+                    <!-- Single icon representing languages & humanities -->
+                    <img src="images/icon-spanish.png" alt="Languages &amp; Humanities Icon">
+                    <h3>Languages &amp; Humanities</h3>
+                    <p>Enhance communication skills and cultural awareness:</p>
+                    <ul>
+                        <li>Spanish ab initio SL</li>
+                        <li>Social &amp; Cultural Anthropology SL</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <img src="images/icon-gcse.png" alt="GCSE &amp; Lower Levels Icon">
+                    <h3>GCSE &amp; Lower Levels</h3>
+                    <p>Build a strong foundation in core subjects and prepare for future success. I offer support across science, maths, languages and humanities for younger learners.</p>
+                </div>
+            </div>
+            <p style="text-align:center; margin-top: 20px;">If you have a special request or want help with another subject, feel free to <a href="contact.html">contact me</a>.</p>
+        </section>
+        <section id="approach">
+            <h2 class="section-title">My Approach to Coaching</h2>
+            <div class="standout">
+                <p>The IB and GCSE are demanding programmes that require more than rote learning. My coaching emphasises critical thinking, time management and intrinsic motivation so you can truly master your subjects and enjoy the learning journey.</p>
+                <p>We break down challenging concepts into manageable steps and build from first principles to advanced applications. I guide you through coursework, essays and exam preparation with constructive feedback and proven study strategies.</p>
+                <p>Balancing academics with wellbeing is vital. I’ll share techniques for organisation, maintaining focus and managing stress so that you remain energised and ready to succeed.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Unlock IB &amp; GCSE Tutoring. All rights reserved.
+    </footer>
+</body>
+</html>

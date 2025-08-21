@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking | Unlock IB &amp; GCSE</title>
+    <link rel="stylesheet" href="style.css?v=3">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            menuToggle.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="brand">Unlock IB &amp; GCSE</div>
+            <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <a href="ib.html">Subjects</a>
+                    <div class="dropdown-content">
+                        <a href="ib.html#science">Science &amp; Maths</a>
+                        <a href="ib.html#economics">Economics</a>
+                        <a href="ib.html#languages">Languages &amp; Humanities</a>
+                        <a href="gcse.html">GCSE &amp; Lower Levels</a>
+                    </div>
+                </div>
+                <a href="tips.html">Study Tips</a>
+                <a href="booking.html">Booking</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Booking</h1>
+            <p>Book your free trial session and check availability</p>
+        </div>
+    </div>
+    <div class="container">
+        <section>
+            <h2 class="section-title">First Lesson Free</h2>
+            <div class="standout">
+                <p>Try a session before committing. Your first lesson is completely free, so you can experience my teaching style and make sure it’s right for you.</p>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-title">Rates</h2>
+            <div class="standout">
+                <ul>
+                    <li>Online: £40/hour</li>
+                    <li>In‑person (Penarth): £45/hour</li>
+                </ul>
+                <p>Refer a friend – get 50% off your next lesson!</p>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-title">Availability (UK Time)</h2>
+            <div class="standout">
+                <ul>
+                    <li>Sunday: 14:00–19:00</li>
+                    <li>Monday–Thursday: 09:00–12:00 &amp; 14:00–19:00</li>
+                    <li>Friday: 09:00–12:00 &amp; 14:00–17:00</li>
+                </ul>
+                <p>I’m flexible for urgent deadlines – please ask if you need support outside of these hours.</p>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-title">Book Your Free Trial Lesson</h2>
+            <div class="standout">
+                <p>To arrange your free trial, send me an email or WhatsApp message using the details on the <a href="contact.html">Contact</a> page. We'll schedule a convenient time and discuss payment arrangements after your trial session.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Unlock IB &amp; GCSE Tutoring. All rights reserved.
+    </footer>
+</body>
+</html>
